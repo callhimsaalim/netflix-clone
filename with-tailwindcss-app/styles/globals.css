@@ -27,4 +27,10 @@
     .bannerButton {
         @apply flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold transition hover:opacity-75 md:py-2.5 md:px-8 md:text-xl;
       }
+
+
+      .input {
+        @apply w-full rounded bg-[#333333] px-5 py-3.5 placeholder-[gray] outline-none focus:bg-[#454545]; /* //rounded-> gives round edges , bg-[] give custom color , px- padding left and right , py -> padding up and down, placeholder colour,outline-none to remove ugly outline , focus:bg-[] on focus custom colour   */
+        
+      }
 }
