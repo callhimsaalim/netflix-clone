@@ -33,4 +33,8 @@
         @apply w-full rounded bg-[#333333] px-5 py-3.5 placeholder-[gray] outline-none focus:bg-[#454545]; /* //rounded-> gives round edges , bg-[] give custom color , px- padding left and right , py -> padding up and down, placeholder colour,outline-none to remove ugly outline , focus:bg-[] on focus custom colour   */
         
       }
+
+      .modalButton {
+        @apply flex h-11 w-11 items-center justify-center rounded-full border-2 border-[gray] bg-[#2a2a2a]/60 transition hover:border-white hover:bg-white/10;  /*items-center -> vertically in center, justify-center -> horizontally in center, we r giving border, bcoz this is for other buttons in modals too, but we will overwrite border-none in the close button,bg-[#2a2a2a]/60 /60 for alpha value,opacity */
+      }
 }
