@@ -1,4 +1,6 @@
-#Netflix-Clone
+#Netflix-Clone 
+
+Created for the purpose of learning Next.JS 
 
 1) npm install to install the node_modules 
 2) next build to build the .next 
